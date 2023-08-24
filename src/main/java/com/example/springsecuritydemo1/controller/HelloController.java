@@ -33,6 +33,7 @@ public class HelloController {
     @GetMapping("update")
     public String update(){
         System.out.println("update...");
+        System.out.println("pull...");
         return "hello update";
     }
 

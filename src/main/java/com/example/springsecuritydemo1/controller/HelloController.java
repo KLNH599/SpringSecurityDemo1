@@ -34,6 +34,7 @@ public class HelloController {
     public String update(){
         System.out.println("update...");
         System.out.println("update...");
+        System.out.println("hot-fix...");
         return "hello update";
     }
 
